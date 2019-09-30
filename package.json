@@ -1,0 +1,40 @@
+{
+  "name": "material-pro",
+  "displayName": "Material Pro",
+  "description": "Material design color theme for VSCode.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "jabacchetta",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#19252b",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabacchetta/material-pro"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "material pro",
+    "material theme",
+    "material design",
+    "vscode",
+    "visual studio code",
+    "vscode color theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Material Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material Pro-color-theme.json"
+      }
+    ]
+  }
+}

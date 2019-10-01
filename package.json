@@ -2,12 +2,12 @@
   "name": "material-pro",
   "displayName": "Material Pro",
   "description": "Material design color theme for VSCode.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "publisher": "jabacchetta",
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#19252b",
+    "color": "#fd7e85",
     "theme": "dark"
   },
   "engines": {

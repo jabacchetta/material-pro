@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.2.0] - 2019-10-02
+
+### Added
+
+- Completed all .editorconfig syntax.
+- Added nested object syntax for JSON and JavaScript.
+- Added .editorconfig and JSON demo files.
+
 ## [1.1.1] - 2019-10-01
 
 ### Changed

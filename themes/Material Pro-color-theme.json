@@ -322,17 +322,52 @@
       }
     },
     {
-      "name": "Italic comments and reserved keywords",
-      "scope": "constant.language, keyword.control, keyword.operator.expression, keyword.other, keyword.operator.new, variable.language, entity.other.attribute-name, storage, comment, punctuation.definition.comment",
+      "name": "Italic comments",
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
-      "name": "No italic arrow",
+      "name": "Italic keywords for JavaScript and TypeScript",
       "scope": [
-        // function keyword does not have an explicit scope without the arrow
-        // therefore we explicitly exclude the function arrow from being italicized
+        "keyword.other.debugger",
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Italic keywords for HTML/JSX",
+      "scope": [
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.js",
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Italic reserved keywords across languages",
+      // NOTE: Might need to be more explicit. Modify as we come across unwanted italics.
+      "scope": [
+        "constant.language",
+        "keyword.operator.new",
+        "variable.language",
+        "keyword.control",
+        "keyword.operator.expression",
+        "variable.language",
+        "storage",
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "No italic function arrow",
+      "scope": [
+        // function keyword does not have an explicit scope without the arrow, therefore we
+        // explicitly exclude the function arrow from being italicized.
         "storage.type.function.arrow"
       ],
       "settings": {
@@ -361,7 +396,7 @@
       }
     },
     {
-      "name": "js/ts punctuation separator key-value",
+      "name": "Editorconfig equals sign",
       "scope": "punctuation.separator.key-value",
       "settings": {
         "foreground": "#86dafc"
@@ -461,48 +496,6 @@
     {
       "name": "operator channel",
       "scope": "keyword.operator.channel",
-      "settings": {
-        "foreground": "#86dafc"
-      }
-    },
-    {
-      "name": "support.constant.property-value.scss",
-      "scope": "support.constant.property-value.scss,support.constant.property-value.css",
-      "settings": {
-        "foreground": "#ffa270"
-      }
-    },
-    {
-      "name": "CSS/SCSS/LESS Operators",
-      "scope": "keyword.operator.css,keyword.operator.scss,keyword.operator.less",
-      "settings": {
-        "foreground": "#86dafc"
-      }
-    },
-    {
-      "name": "css color standard name",
-      "scope": "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
-      "settings": {
-        "foreground": "#ffa270"
-      }
-    },
-    {
-      "name": "css comma",
-      "scope": "punctuation.separator.list.comma.css",
-      "settings": {
-        "foreground": "#86dafc"
-      }
-    },
-    {
-      "name": "css attribute-name.id",
-      "scope": "support.constant.color.w3c-standard-color-name.css",
-      "settings": {
-        "foreground": "#ffa270"
-      }
-    },
-    {
-      "name": "css property-name",
-      "scope": "support.type.vendored.property-name.css",
       "settings": {
         "foreground": "#86dafc"
       }
@@ -834,13 +827,6 @@
       }
     },
     {
-      "name": "Python Keyword Control",
-      "scope": "keyword.control.import.python,keyword.control.flow.python",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Control Elements",
       "scope": "control.elements, keyword.operator.less",
       "settings": {
@@ -880,34 +866,6 @@
       "scope": "token.storage.type.java",
       "settings": {
         "foreground": "#ffd180"
-      }
-    },
-    {
-      "name": "Support",
-      "scope": "support.function",
-      "settings": {
-        "foreground": "#86dafc"
-      }
-    },
-    {
-      "name": "Support type",
-      "scope": "support.type.property-name",
-      "settings": {
-        "foreground": "#86dafc"
-      }
-    },
-    {
-      "name": "Support type",
-      "scope": "support.constant.property-value",
-      "settings": {
-        "foreground": "#86dafc"
-      }
-    },
-    {
-      "name": "Support type",
-      "scope": "support.constant.font-name",
-      "settings": {
-        "foreground": "#ffa270"
       }
     },
     {
@@ -978,36 +936,6 @@
       "scope": "punctuation.definition.constant",
       "settings": {
         "foreground": "#ffa270"
-      }
-    },
-    {
-      "name": "Tags",
-      "scope": "entity.name.tag",
-      "settings": {
-        "foreground": "#77D3C2"
-      }
-    },
-    {
-      "name": "Attributes",
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#ffa270"
-      }
-    },
-    {
-      "name": "Attribute IDs",
-      "scope": "entity.other.attribute-name.id",
-      "settings": {
-        "foreground": "#82aaff",
-        "fontStyle": "normal"
-      }
-    },
-    {
-      "name": "Attribute class",
-      "scope": "entity.other.attribute-name.class.css",
-      "settings": {
-        "foreground": "#ffa270",
-        "fontStyle": "normal"
       }
     },
     {
@@ -1116,17 +1044,295 @@
       }
     },
     {
-      "name": "JSON Property Name",
-      "scope": "support.type.property-name.json",
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JSON Punctuation for Property Name",
-      "scope": "support.type.property-name.json punctuation",
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
       "settings": {
         "foreground": "#fd7e85"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#fd7e85"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#fd7e85"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#fd7e85"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "JavaScript Property Name",
+      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+
+
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#fd7e85"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#fd7e85"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#fd7e85"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#fd7e85"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#fd7e85"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "JSON Property Name",
+      "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "JSON property name punctuation",
+      "scope": [
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json",
+      ],
+      "settings": {
+        "foreground": "#86dafc"
       }
     },
     {
@@ -1533,13 +1739,6 @@
       }
     },
     {
-      "name": "Ini Default Text",
-      "scope": ["source.ini"],
-      "settings": {
-        "foreground": "#C0E58A"
-      }
-    },
-    {
       "name": "Makefile prerequisities",
       "scope": ["meta.scope.prerequisites.makefile"],
       "settings": {
@@ -1780,6 +1979,173 @@
       }
     },
 
+    /* CSS */
+
+    {
+      "name": "CSS property name",
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.property-name.media.css",
+        "support.type.vendored.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "CSS italics",
+      "scope": [
+        "keyword.control.at-rule.media.css"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+      }
+    },
+    {
+      "name": "CSS italics",
+      "scope": [
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.percentage.css",
+        "entity.other.attribute-name.pseudo-class.css",
+      ],
+      "settings": {
+        "foreground": "#ffa270"
+      }
+    },
+    {
+      "name": "CSS property name",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.css",
+        "keyword.control.at-rule.media.css"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "CSS property name",
+      "scope": [
+        "support.function.url.css",
+        "support.function.misc.css",
+        "support.function.gradient.css"
+      ],
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "CSS property name",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.class.css",
+        "entity.name.tag.css",
+      ],
+      "settings": {
+        "foreground": "#77d3c2"
+      }
+    },
+    {
+      "name": "Attribute class",
+      "scope": [
+        "constant.numeric.css",
+        "constant.other.color.rgb-value.hex.css",
+        "support.constant.property-value.css",
+        "support.constant.font-name.css",
+        "support.constant.color.w3c-standard-color-name.css"
+      ],
+      "settings": {
+        "foreground": "#ffa270"
+      }
+    },
+    {
+      "name": "Attribute class",
+      "scope": [
+        "punctuation.definition.constant.css",
+      ],
+      "settings": {
+        "foreground": "#86dafc"
+      }
+    },
+    {
+      "name": "css comma",
+      "scope": "punctuation.separator.list.comma.css",
+      "settings": {
+        "foreground": "#86dafc"
+      }
+    },
+
+    /* Fallbacks */
+
+    {
+      "name": "Keyword other unit",
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#ffa270"
+      }
+    },
+    {
+      "name": "Tags",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#77D3C2"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#ffa270"
+      }
+    },
+    {
+      "name": "Punctuation default",
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#86dafc"
+      }
+    },
+    {
+      "name": "Keyword other unit default",
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#ffd180"
+      }
+    },
+    {
+      "name": "Support",
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#86dafc"
+      }
+    },
+    {
+      "name": "Support type",
+      "scope": "support.type.property-name",
+      "settings": {
+        "foreground": "#86dafc"
+      }
+    },
+    {
+      "name": "Support type",
+      "scope": "support.constant.property-value",
+      "settings": {
+        "foreground": "#86dafc"
+      }
+    },
+    {
+      "name": "Support type",
+      "scope": "support.constant.font-name",
+      "settings": {
+        "foreground": "#ffa270"
+      }
+    },
+
     /** FULLY REVIEWED SYNTAX BELOW THIS SECTION
     * =============================================================================================
     * =============================================================================================
@@ -1914,11 +2280,35 @@
         "foreground": "#ff0000"
       }
     },
+
+    /* Editorconfig */
+
     {
-      "name": "Punctuation default",
-      "scope": ["punctuation"],
+      "name": "Editorconfig keys",
+      "scope": ["keyword.other.definition.ini"],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#ffa270"
+      }
+    },
+    {
+      "name": "Editorconfig values",
+      "scope": ["source.ini"],
+      "settings": {
+        "foreground": "#d9e5eb"
+      }
+    },
+    {
+      "name": "Editorconfig punctuation",
+      "scope": ["punctuation.definition.entity.ini"],
+      "settings": {
+        "foreground": "#86dafc"
+      }
+    },
+    {
+      "name": "Editorconfig section name (filepath glob)",
+      "scope": ["entity.name.section.group-title.ini"],
+      "settings": {
+        "foreground": "#ffd180"
       }
     },
   ]

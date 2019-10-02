@@ -1,0 +1,14 @@
+{
+  "obj": {
+    "value": "string",
+    "obj": {
+      "value": 1,
+      "obj": {
+        "value": true,
+        "obj": {
+          "value": [null]
+        }
+      }
+    }
+  }
+}

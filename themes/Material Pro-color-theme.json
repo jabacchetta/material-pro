@@ -1044,141 +1044,141 @@
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 1",
+      "scope": "meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 2",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#C792EA"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 3",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#ffd180"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 4",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#82aaff"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 5",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 6",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#C792EA"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 7",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#ffd180"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 8",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#82aaff"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 9",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 10",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#C792EA"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 11",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#ffd180"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 12",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#82aaff"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 13",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 14",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#C792EA"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 15",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#ffd180"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 16",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#82aaff"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 17",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 18",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#C792EA"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 19",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#ffd180"
       }
     },
     {
-      "name": "JavaScript Property Name",
-      "scope": "source.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key",
+      "name": "Nested object literal key 20",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#82aaff"
       }
@@ -1186,140 +1186,140 @@
 
 
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 1",
       "scope": "source.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 2",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#C792EA"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 3",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#ffd180"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 4",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#82aaff"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 5",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 6",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#C792EA"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 7",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#ffd180"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 8",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#82aaff"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 9",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 10",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#C792EA"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 11",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#ffd180"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 12",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#82aaff"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 13",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 14",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#C792EA"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 15",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#ffd180"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 16",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#82aaff"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 17",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#fd7e85"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 18",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#C792EA"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 19",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#ffd180"
       }
     },
     {
-      "name": "JSON Property Name",
+      "name": "Nested dictionary property name 20",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       "settings": {
         "foreground": "#82aaff"

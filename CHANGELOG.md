@@ -11,8 +11,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 
 - Completed all .editorconfig syntax.
-- Added nested object syntax for JSON and JavaScript.
+- Added nested object literal and dictionary syntax.
 - Added .editorconfig and JSON demo files.
+- Added more CSS syntax.
 
 ## [1.1.1] - 2019-10-01
 

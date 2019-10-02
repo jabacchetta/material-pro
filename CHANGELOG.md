@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+- Add .yml demo file.
+
 ## [1.2.0] - 2019-10-02
 
 ### Added

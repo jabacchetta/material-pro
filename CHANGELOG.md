@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.2.2] - 2019-11-03
+
+### Added
+
+* Update VSCode course information on README.
+
 ## [1.2.1] - 2019-10-07
 
 ### Added

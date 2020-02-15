@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.3.0] - 2020-02-15
+
+### Added
+
+* Added custom style (none) for activity bar's active border.
+
+### Removed
+
+* Removed italics from comments. Makes comments more readable (especially emojis and code). Gives
+  italics more meaningful semantics (only language keywords).
+
 ## [1.2.2] - 2019-11-03
 
 ### Added

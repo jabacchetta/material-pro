@@ -27,6 +27,7 @@
     "editorIndentGuide.activeBackground": "#d9e5eb33",
     "statusBar.foreground": "#5d7783",
     "activityBar.inactiveForeground": "#5d7783",
+    "activityBar.activeBorder": "#232F3500",
     "sideBar.foreground": "#5d7783",
     "tab.inactiveForeground": "#5d7783",
     "panelTitle.inactiveForeground": "#5d7783",
@@ -321,13 +322,13 @@
         "foreground": "#5d7783"
       }
     },
-    {
-      "name": "Italic comments",
-      "scope": ["comment", "punctuation.definition.comment"],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
+    // {
+    //   "name": "Italic comments",
+    //   "scope": ["comment", "punctuation.definition.comment"],
+    //   "settings": {
+    //     "fontStyle": "italic"
+    //   }
+    // },
     {
       "name": "Italic keywords for JavaScript and TypeScript",
       "scope": [

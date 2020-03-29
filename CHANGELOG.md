@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.3.1] - 2020-03-29
+
+### Changed
+
+* Updated find, select, and word highlights and borders.
+* Made indents and rulers slightly darker.
+
 ## [1.3.0] - 2020-02-15
 
 ### Added

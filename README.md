@@ -63,8 +63,11 @@ the following settings:
     // Adds a border below the sidebar title.
     ".sidebar .composite.title": "border-bottom: 1px solid #19252B",
 
+    // Leaves only the bottom border on matching bracket border.
+    ".monaco-editor .bracket-match": "border-top: none; border-right: none; border-left: none;",
+
     // Changes the color of the dirty file tab circle.
-    ".hc-black .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.close-button-off.dirty, .vs-dark .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.close-button-off.dirty:not(.dirty-border-top)": "background-image: url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' height='16' width='16'%3E%3Ccircle fill='%2300bcd480' cx='8' cy='8' r='4'/%3E%3C/svg%3E\") !important",
+    ".monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-close .action-label:not(:hover):before, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-close .action-label:not(:hover):before": "color: #00bcd480",
 
     // // Optional, if you're already familiar with the editor icons and their keyboard shortcuts.
     // ".editor-actions": "display: none !important",

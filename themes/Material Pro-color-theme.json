@@ -109,9 +109,9 @@
     "terminal.ansiBrightMagenta": "#C792EA",
     "terminal.ansiBrightRed": "#FF5370",
     "terminal.ansiBrightYellow": "#ffd180",
+    "editorBracketMatch.border": "#ffd180",
 
     /* TODO: The styles below still need to be completed. */
-    "editorBracketMatch.border": "#606d7550",
     "editorLink.activeForeground": "#ebfcfc",
     "selection.background": "#00bcd4",
     "progressBar.background": "#00bcd4",

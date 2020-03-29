@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.3.2] - 2020-03-29
+
+### Changed
+
+* Updated matching bracket border color.
+* Updated README to include preferred custom style for matching bracket border.
+
 ## [1.3.1] - 2020-03-29
 
 ### Changed

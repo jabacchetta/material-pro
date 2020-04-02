@@ -14,12 +14,8 @@ Follow [on Twitter](https://twitter.com/devcastcode) and [subscribe at DevCast](
 color theme for VSCode that delivers visual pop while keeping distractions to a minimum and drawing
 attention to what's most important — the code itself.
 
-The syntax colors were selected based on their contrast and energetic impressions, and are inspired
-by the following themes:
-
-- [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme).
-- [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
-- [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
+The syntax colors are mostly based off of the highly popular [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme), although
+each syntax selection is gradually being looked at and updated.
 
 ## Features
 
@@ -28,7 +24,7 @@ by the following themes:
 - Dimmed inactive headings/icons that keeps irrelevant components out of the way.
 - Modern tab border with a cleaner version of the signature Material accent.
 - Strategic color pops added to significant elements (e.g. badge counts for problems and git changes).
-- Italic font style for comments and reserved keywords.
+- Italic font style for reserved keywords.
 - Comprehensive coverage of VSCode's color theme API.
 
 ## Preview
@@ -50,7 +46,42 @@ export PS1='`if [ $? = 0 ]; then echo "\[\033[0;32m\]✔"; else echo "\[\033[0;3
 source ~/.git-prompt.sh
 ```
 
-## Additional Styles
+## Icons
+
+Install [Material Theme Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons) and
+set the accent color to cyan.
+
+## Recommended Settings
+
+Optionally, add the following to your [user settings](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations) for
+additional UI updates.
+
+```jsonc
+{
+  // More spacing.
+  "editor.padding.top": 12,
+  "editor.padding.bottom": 12,
+  "workbench.tree.indent": 12,
+
+  // Remove distractions.
+  "editor.cursorBlinking": "solid",
+
+  // Use "Go to Line..." keyboard shortcut when needed.
+  "editor.lineNumbers": "off",
+
+  // Install one of the font families listed.
+  "editor.fontFamily": "'Operator Mono SSm Lig', 'Fira Code', 'Cascadia Code', Consolas, monospace",
+  "editor.fontLigatures": true,
+
+  // Personal preferences for readability.
+  "window.zoomLevel": 1.4,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 21,
+  "workbench.fontAliasing": "auto",
+}
+```
+
+## Custom Styles
 
 VSCode's official theme color API doesn't have settings for everything, but we can customize the
 stylesheets by installing the [Customize
@@ -66,78 +97,18 @@ the following settings:
     // Leaves only the bottom border on matching bracket border.
     ".monaco-editor .bracket-match": "border-top: none; border-right: none; border-left: none;",
 
+    // Leaves only the bottom border on find/match/selection highlights.
+    ".monaco-editor .wordHighlight": "border-top: none; border-right: none; border-left: none;",
+    ".monaco-editor .wordHighlightStrong": "border-top: none; border-right: none; border-left: none;",
+    ".monaco-editor .findMatch": "border-top: none; border-right: none; border-left: none;",
+    ".monaco-editor .currentFindMatch": "border-top: none; border-right: none; border-left: none;",
+    ".monaco-editor .selectionHighlight": "border-top: none; border-right: none; border-left: none;",
+
     // Changes the color of the dirty file tab circle.
     ".monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-close .action-label:not(:hover):before, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-close .action-label:not(:hover):before": "color: #00bcd480",
 
     // // Optional, if you're already familiar with the editor icons and their keyboard shortcuts.
     // ".editor-actions": "display: none !important",
   },
-}
-```
-
-## Icons
-
-Install [Material Theme Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons) and
-set the accent color to cyan.
-
-## Indentation & Scope Guides
-
-Install the [Bracket Pair
-Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) extension and
-add the following settings:
-
-```jsonc
-{
-    // Disable distracting bracket pair colors.
-  "bracket-pair-colorizer-2.colors": [],
-
-  // Customizes indent guide and scope line
-  "bracket-pair-colorizer-2.scopeLineCSS": [
-    "borderStyle : solid",
-    "borderWidth : 1px",
-    "borderColor : #d9e5eb33",
-    "opacity: 1"
-  ],
-
-  // Turn off built-in active indent guides since they aren't semantic.
-  "editor.highlightActiveIndentGuide": false,
-}
-```
-
-## Bracket Matching
-
-Install the [Subtle Match
-Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets) extension and
-add the following settings:
-
-```jsonc
-{
-  "subtleBrackets.parse": false,
-  "subtleBrackets.pairs": [
-    {
-      "open": "(",
-      "close": ")"
-    },
-    {
-      "open": "[",
-      "close": "]"
-    },
-    {
-      "open": "{",
-      "close": "}"
-    },
-    {
-      "open": "<",
-      "close": ">"
-    },
-  ],
-
-  "subtleBrackets.style": {
-    // Match the cursor color.
-    "borderColor": "#ffd180",
-  },
-
-  // Required for Subtle Brackets to work (removes native brackets).
-  "editor.matchBrackets": false,
 }
 ```

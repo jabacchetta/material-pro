@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.3.5] - 2020-04-12
+
+### Changed
+
+* Updated border colors for word, find, and selection highlights.
+
 ## [1.3.4] - 2020-04-02
 
 ### Changed

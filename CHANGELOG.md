@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.3.6] - 2020-05-05
+
+### Changed
+
+* Add tab hover foreground color.
+* Update overview ruler colors.
+* Update word strong highlight color.
+
 ## [1.3.5] - 2020-04-12
 
 ### Changed

@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.3.9] - 2020-05-24
+
+### Changed
+
+* Update symbol match colors.
+* Update accent color.
+
 ## [1.3.8] - 2020-05-23
 
 ### Added

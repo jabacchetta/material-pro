@@ -3,15 +3,18 @@
   "type": "dark",
 
   /**
-   * #263238 starting point (used as editor background)
-   * #232F35 is 1% darker (sidebar/activity/terminal/widget background)
-   * #1E2A30 is 3% darker (background highlights for #263238)
-   * #1C282E is 4% darker (background highlights for #232F35)
-   * #19252B is 5% darker
-   * #5d7783 - Blue shade (no transparency, so that blue isn't lost)
-   * #AAC4D0 - Blue shade, 30% lighter
-   * #506A76 - Blue shade, 5% darker
-   * #2A4450 - Blue shade, 20% darker
+   * #263238 - Primary background
+   * #232F35 - Secondary background (1% darker)
+   * #1E2A30 - Primary highlights (3% darker)
+   * #1C282E - Secondary highlights (4% darker)
+   * #19252B - Secondary borders (5% darker)
+
+   * #33C1FF - Accent base
+
+   * #5d7783 - Blue fill (text/borders/icons)
+   * #AAC4D0 - Blue fill (30% lighter)
+   * #506A76 - Blue fill (5% darker)
+   * #2A4450 - Blue fill (20% darker)
    */
 
   "colors": {
@@ -32,51 +35,55 @@
     "editorIndentGuide.activeBackground": "#d9e5eb4D",
     "statusBar.foreground": "#5d7783",
     "activityBar.inactiveForeground": "#5d7783",
-    "activityBar.activeBorder": "#00bcd4",
+    "activityBar.activeBorder": "#33C1FF",
     "sideBar.foreground": "#5d7783",
     "tab.inactiveForeground": "#5d7783",
     "panelTitle.inactiveForeground": "#5d7783",
     "editorLineNumber.foreground": "#5d7783",
 
     // The read symbols that matches the write symbol that the cursor is on.
-    "editor.wordHighlightBorder": "#506A76",
-    "editor.wordHighlightBackground": "#00000000",
-    "editorOverviewRuler.wordHighlightForeground": "#506A7680",
+    "editor.wordHighlightBorder": "#00000000",
+    "editor.wordHighlightBackground": "#33C1FF40",
+    "editorOverviewRuler.wordHighlightForeground": "#33C1FF40",
 
     // The write symbol that the cursor is on.
-    "editor.wordHighlightStrongBorder": "#AAC4D0",
-    "editor.wordHighlightStrongBackground": "#00000000",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#AAC4D080",
+    "editor.wordHighlightStrongBorder": "#33C1FF",
+    "editor.wordHighlightStrongBackground": "#33C1FF40",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#33C1FF",
+
+    "editorBracketMatch.border": "#33C1FF",
+    "editorBracketMatch.background": "#00000000",
+    "editorOverviewRuler.bracketMatchForeground": "#33C1FF",
 
     // All search matches.
-    "editorOverviewRuler.findMatchForeground": "#00bcd44D",
-    "editor.findMatchHighlightBackground": "#00bcd44D",
-    // "editor.findMatchHighlightBorder": "#00bcd4BF",
+    "editorOverviewRuler.findMatchForeground": "#33C1FF40",
+    "editor.findMatchHighlightBackground": "#33C1FF40",
+    // "editor.findMatchHighlightBorder": "#33C1FF40",
 
     // The selected search match.
-    "editor.findMatchBorder": "#00bcd4",
-    "editor.findMatchBackground": "#00bcd44D",
+    "editor.findMatchBorder": "#33C1FF",
+    "editor.findMatchBackground": "#33C1FF40",
 
     // The matches for what the selection is highlighting.
-    // "editor.selectionHighlightBorder": "#00bcd4BF",
-    "editor.selectionHighlightBackground": "#00bcd44D",
-    "editorOverviewRuler.selectionHighlightForeground": "#00bcd44D",
+    // "editor.selectionHighlightBorder": "#33C1FF40",
+    "editor.selectionHighlightBackground": "#33C1FF40",
+    "editorOverviewRuler.selectionHighlightForeground": "#33C1FF40",
 
     // The selection that is highlighted.
-    "editor.selectionBackground": "#2A4450",
+    "editor.selectionBackground": "#404C52",
 
-    "settings.modifiedItemIndicator": "#00bcd480",
-    "list.highlightForeground": "#00bcd4",
-    "activityBarBadge.background": "#00bcd4",
-    "badge.background": "#00bcd4",
-    "list.activeSelectionForeground": "#00bcd4",
-    "textLink.foreground": "#00bcd4",
-    "panelTitle.activeBorder": "#00bcd4",
-    "tab.activeBorderTop": "#00bcd4",
-    "list.inactiveSelectionForeground": "#00bcd4",
-    "button.background": "#00bcd4",
-    "editorSuggestWidget.highlightForeground": "#00bcd4",
-    "focusBorder": "#00bcd480",
+    "settings.modifiedItemIndicator": "#33C1FF40",
+    "list.highlightForeground": "#33C1FF",
+    "activityBarBadge.background": "#33C1FF",
+    "badge.background": "#33C1FF",
+    "list.activeSelectionForeground": "#33C1FF",
+    "textLink.foreground": "#33C1FF",
+    "panelTitle.activeBorder": "#33C1FF",
+    "tab.activeBorderTop": "#33C1FF",
+    "list.inactiveSelectionForeground": "#33C1FF",
+    "button.background": "#33C1FF",
+    "editorSuggestWidget.highlightForeground": "#33C1FF",
+    "focusBorder": "#33C1FF40",
     "input.border": "#404C52",
     "input.background": "#333F45",
     "tab.activeBorder": "#263238",
@@ -130,21 +137,18 @@
     "terminal.ansiBrightMagenta": "#C792EA",
     "terminal.ansiBrightRed": "#FF5370",
     "terminal.ansiBrightYellow": "#ffd180",
-    "editorBracketMatch.border": "#00bcd4",
     "terminalCursor.foreground": "#ffd180",
     "editorCursor.foreground": "#ffd180",
-    "editorOverviewRuler.bracketMatchForeground": "#00bcd480",
 
     /* TODO: The styles below still need to be completed. */
     "editorLink.activeForeground": "#ebfcfc",
-    "selection.background": "#00bcd4",
-    "progressBar.background": "#00bcd4",
+    "selection.background": "#33C1FF",
+    "progressBar.background": "#33C1FF",
     "textLink.activeForeground": "#ebfcfc",
     "debugToolBar.background": "#263238",
-    "pickerGroup.foreground": "#00bcd4",
+    "pickerGroup.foreground": "#33C1FF",
     "inputOption.activeBackground": "#ebfcfc30",
     "inputOption.activeBorder": "#ebfcfc30",
-    "editorBracketMatch.background": "#00000000",
     "editorWhitespace.foreground": "#ebfcfc40",
     "editorOverviewRuler.border": "#263238",
     "input.placeholderForeground": "#ebfcfc60",
@@ -152,9 +156,9 @@
     "inputValidation.infoBorder": "#82aaff",
     "inputValidation.warningBorder": "#ffd180",
     "editorError.foreground": "#FF5370",
-    "editorOverviewRuler.errorForeground": "#FF537080",
-    "editorOverviewRuler.infoForeground": "#82aaff80",
-    "editorOverviewRuler.warningForeground": "#ffd18080",
+    "editorOverviewRuler.errorForeground": "#FF5370",
+    "editorOverviewRuler.infoForeground": "#82aaff",
+    "editorOverviewRuler.warningForeground": "#ffd180",
     "editorInfo.foreground": "#82aaff",
     "editorWarning.foreground": "#ffd180",
     "editorHoverWidget.border": "#FFFFFF10",
@@ -171,7 +175,7 @@
     "statusBar.debuggingForeground": "#ffffff",
     "statusBarItem.hoverBackground": "#5d778320",
     "statusBarItem.remoteForeground": "#000000",
-    "statusBarItem.remoteBackground": "#00bcd4",
+    "statusBarItem.remoteBackground": "#33C1FF",
     "titleBar.activeBackground": "#263238",
     "titleBar.activeForeground": "#ebfcfc",
     "titleBar.inactiveBackground": "#263238",
@@ -188,7 +192,7 @@
     "diffEditor.removedTextBackground": "#FF537020",
     "notifications.background": "#263238",
     "notifications.foreground": "#ebfcfc",
-    "notificationLink.foreground": "#00bcd4",
+    "notificationLink.foreground": "#33C1FF",
     "extensionButton.prominentBackground": "#C0E58A90",
     "extensionButton.prominentHoverBackground": "#C0E58A",
     "peekView.border": "#00000030",
@@ -208,16 +212,16 @@
     "breadcrumb.background": "#263238",
     "breadcrumb.foreground": "#607a86",
     "breadcrumb.focusForeground": "#ebfcfc",
-    "breadcrumb.activeSelectionForeground": "#00bcd4",
+    "breadcrumb.activeSelectionForeground": "#33C1FF",
     "breadcrumbPicker.background": "#263238",
     "menu.background": "#263238",
     "menu.foreground": "#ebfcfc",
     "menu.selectionBackground": "#00000050",
-    "menu.selectionForeground": "#00bcd4",
+    "menu.selectionForeground": "#33C1FF",
     "menu.selectionBorder": "#00000030",
     "menu.separatorBackground": "#ebfcfc",
     "menubar.selectionBackground": "#00000030",
-    "menubar.selectionForeground": "#00bcd4",
+    "menubar.selectionForeground": "#33C1FF",
     "menubar.selectionBorder": "#00000030",
     "settings.dropdownForeground": "#ebfcfc",
     "settings.dropdownBackground": "#263238",

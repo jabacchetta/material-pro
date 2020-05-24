@@ -8,7 +8,12 @@
    * #1E2A30 is 3% darker (background highlights for #263238)
    * #1C282E is 4% darker (background highlights for #232F35)
    * #19252B is 5% darker
+   * #5d7783 - Blue shade (no transparency, so that blue isn't lost)
+   * #AAC4D0 - Blue shade, 30% lighter
+   * #506A76 - Blue shade, 5% darker
+   * #2A4450 - Blue shade, 20% darker
    */
+
   "colors": {
     "tab.activeForeground": "#d9e5eb",
     "panelTitle.activeForeground": "#d9e5eb",
@@ -34,29 +39,31 @@
     "editorLineNumber.foreground": "#5d7783",
 
     // The read symbols that matches the write symbol that the cursor is on.
-    "editor.wordHighlightBorder": "#fd7e85BF",
+    "editor.wordHighlightBorder": "#506A76",
     "editor.wordHighlightBackground": "#00000000",
-    "editorOverviewRuler.wordHighlightForeground": "#fd7e8580",
+    "editorOverviewRuler.wordHighlightForeground": "#506A7680",
 
     // The write symbol that the cursor is on.
-    "editor.wordHighlightStrongBorder": "#C0E58ABF",
+    "editor.wordHighlightStrongBorder": "#AAC4D0",
     "editor.wordHighlightStrongBackground": "#00000000",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#C0E58A80",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#AAC4D080",
 
-    // The matches for the search.
-    "editor.findMatchBorder": "#82AAFFBF",
-    "editorOverviewRuler.findMatchForeground": "#82AAFF80",
+    // All search matches.
+    "editorOverviewRuler.findMatchForeground": "#00bcd44D",
+    "editor.findMatchHighlightBackground": "#00bcd44D",
+    // "editor.findMatchHighlightBorder": "#00bcd4BF",
 
-    // The selected match for the search.
-    "editor.findMatchHighlightBorder": "#82AAFFBF",
+    // The selected search match.
+    "editor.findMatchBorder": "#00bcd4",
+    "editor.findMatchBackground": "#00bcd44D",
 
     // The matches for what the selection is highlighting.
-    "editor.selectionHighlightBorder": "#82AAFFBF",
-    "editor.selectionHighlightBackground": "#00000000",
-    "editorOverviewRuler.selectionHighlightForeground": "#82AAFF80",
+    // "editor.selectionHighlightBorder": "#00bcd4BF",
+    "editor.selectionHighlightBackground": "#00bcd44D",
+    "editorOverviewRuler.selectionHighlightForeground": "#00bcd44D",
 
     // The selection that is highlighted.
-    "editor.selectionBackground": "#d9e5eb1A",
+    "editor.selectionBackground": "#2A4450",
 
     "settings.modifiedItemIndicator": "#00bcd480",
     "list.highlightForeground": "#00bcd4",
@@ -97,8 +104,6 @@
     "editorWidget.resizeBorder": "#232F35",
     "list.inactiveSelectionBackground": "#232F35",
     "editorSuggestWidget.selectedBackground": "#1E2A30",
-    "editor.findMatchBackground": "#1E2A3000",
-    "editor.findMatchHighlightBackground": "#1E2A3000",
     "list.focusBackground": "#1C282E",
     "list.activeSelectionBackground": "#1C282E",
     "tab.border": "#19252B",
@@ -125,10 +130,10 @@
     "terminal.ansiBrightMagenta": "#C792EA",
     "terminal.ansiBrightRed": "#FF5370",
     "terminal.ansiBrightYellow": "#ffd180",
-    "editorBracketMatch.border": "#ffd180",
+    "editorBracketMatch.border": "#00bcd4",
     "terminalCursor.foreground": "#ffd180",
     "editorCursor.foreground": "#ffd180",
-    "editorOverviewRuler.bracketMatchForeground": "#ffd18080",
+    "editorOverviewRuler.bracketMatchForeground": "#00bcd480",
 
     /* TODO: The styles below still need to be completed. */
     "editorLink.activeForeground": "#ebfcfc",
@@ -139,19 +144,19 @@
     "pickerGroup.foreground": "#00bcd4",
     "inputOption.activeBackground": "#ebfcfc30",
     "inputOption.activeBorder": "#ebfcfc30",
-    "editorBracketMatch.background": "#263238",
+    "editorBracketMatch.background": "#00000000",
     "editorWhitespace.foreground": "#ebfcfc40",
     "editorOverviewRuler.border": "#263238",
     "input.placeholderForeground": "#ebfcfc60",
-    "inputValidation.errorBorder": "#FF537050",
-    "inputValidation.infoBorder": "#82AAFF50",
-    "inputValidation.warningBorder": "#ffd18050",
-    "editorError.foreground": "#FF537070",
+    "inputValidation.errorBorder": "#FF5370",
+    "inputValidation.infoBorder": "#82aaff",
+    "inputValidation.warningBorder": "#ffd180",
+    "editorError.foreground": "#FF5370",
     "editorOverviewRuler.errorForeground": "#FF537080",
-    "editorOverviewRuler.infoForeground": "#82AAFF80",
+    "editorOverviewRuler.infoForeground": "#82aaff80",
     "editorOverviewRuler.warningForeground": "#ffd18080",
-    "editorInfo.foreground": "#82AAFF70",
-    "editorWarning.foreground": "#ffd18070",
+    "editorInfo.foreground": "#82aaff",
+    "editorWarning.foreground": "#ffd180",
     "editorHoverWidget.border": "#FFFFFF10",
     "editorGroup.border": "#00000030",
     "editorGutter.modifiedBackground": "#82AAFF60",
@@ -175,7 +180,7 @@
     "input.foreground": "#ebfcfc",
     "dropdown.background": "#263238",
     "dropdown.border": "#FFFFFF10",
-    "terminalCursor.background": "#000000",
+    "terminalCursor.background": "#00000000",
     "editorWidget.border": "#80CBC4",
     "editorMarkerNavigation.background": "#ebfcfc05",
     "panel.dropBackground": "#ebfcfc",

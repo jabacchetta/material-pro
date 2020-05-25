@@ -43,31 +43,32 @@
 
     // The read symbols that matches the write symbol that the cursor is on.
     "editor.wordHighlightBorder": "#00000000",
-    "editor.wordHighlightBackground": "#33C1FF40",
-    "editorOverviewRuler.wordHighlightForeground": "#33C1FF40",
+    "editor.wordHighlightBackground": "#33C1FF33",
+    "editorOverviewRuler.wordHighlightForeground": "#33C1FF33",
 
     // The write symbol that the cursor is on.
-    "editor.wordHighlightStrongBorder": "#33C1FF",
-    "editor.wordHighlightStrongBackground": "#33C1FF40",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#33C1FF",
+    "editor.wordHighlightStrongBorder": "#00000000",
+    "editor.wordHighlightStrongBackground": "#33C1FF80",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#33C1FF80",
 
+    // Bracket match
     "editorBracketMatch.border": "#33C1FF",
     "editorBracketMatch.background": "#00000000",
     "editorOverviewRuler.bracketMatchForeground": "#33C1FF",
 
     // All search matches.
-    "editorOverviewRuler.findMatchForeground": "#33C1FF40",
-    "editor.findMatchHighlightBackground": "#33C1FF40",
+    "editorOverviewRuler.findMatchForeground": "#33C1FF33",
+    "editor.findMatchHighlightBackground": "#33C1FF33",
     // "editor.findMatchHighlightBorder": "#33C1FF40",
 
     // The selected search match.
     "editor.findMatchBorder": "#33C1FF",
-    "editor.findMatchBackground": "#33C1FF40",
+    "editor.findMatchBackground": "#33C1FF33",
 
     // The matches for what the selection is highlighting.
     // "editor.selectionHighlightBorder": "#33C1FF40",
-    "editor.selectionHighlightBackground": "#33C1FF40",
-    "editorOverviewRuler.selectionHighlightForeground": "#33C1FF40",
+    "editor.selectionHighlightBackground": "#33C1FF33",
+    "editorOverviewRuler.selectionHighlightForeground": "#33C1FF33",
 
     // The selection that is highlighted.
     "editor.selectionBackground": "#404C52",

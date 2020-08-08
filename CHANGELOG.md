@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.3.11] - 2020-08-08
+
+### Changed
+
+* Update terminal colors.
+
 ## [1.3.10] - 2020-05-25
 
 ### Changed
